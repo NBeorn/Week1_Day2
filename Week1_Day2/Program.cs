@@ -13,11 +13,11 @@ namespace Week1_Day2
             //Data Types
             //An int is a whole number
             //A string is a collection of characters
+            
             //A char is a single character
-
             char firstInitial = 'D';
+           
             //bool (boolean) is true or false, will default to true
-
             bool isTired = true;
 
             //other number data types
@@ -32,6 +32,27 @@ namespace Week1_Day2
             Console.WriteLine(number);
             Console.WriteLine(partialNum);
             Console.WriteLine(someNumber);
+
+            //Operators
+            //Arithmetic Operators
+            // + adds two operands
+            // - subtracts
+            // * multiplies
+            // / divides
+            // % (Modulus) checks the remainder
+            // ++ increments operator by 1, primarily used for ints
+            // -- decrements by 1
+            //Relational Operators
+            // == checks if the values are equal, if they are it returns bool true
+            // != checks if values are not equal
+            // > checks for greater than
+            // < checks for less than
+            // >= greater than or equal to
+            // <= less than or equal to
+            //Logical Operators
+            // && and operator - checks two conditions at once
+            // || or operator - if any conditions are true, it is true
+            // ! not operator - used to reverse the logical state of the operand
         }
     }
 }
